@@ -34,12 +34,12 @@ body{
     font-family: var(--fonte-padrao);
 }
 
-/*para colocar depois algo depois do conteudo usa ::after*/
+/*para colocar  algo depois do conteudo usa ::after*/
 a.externo::after{
-content: '\00a0\1f517';
-
-
-}
+    content: '\00a0\1f517';
+    
+    
+    }
 header{
     background-image: linear-gradient(to bottom, var(--cor04),var(--cor05));
     min-height: 150px;
